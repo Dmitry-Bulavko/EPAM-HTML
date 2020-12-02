@@ -1,0 +1,38 @@
+.clients {
+	background-color: #fff;
+}
+.clients__wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+.clients__content {
+	width: 50%;
+	flex-shrink: 0;
+	padding: 100px 15px;
+}
+.clients__title {
+	font-size: 30px;
+	font-weight: 700;
+	color: #515769;
+	line-height: 1.4;
+	margin: 0 0 15px;
+}
+.clients__description {
+	font-size: 15px;
+	font-weight: 400;
+	color: #a6a7aa;
+	margin-bottom: 15px;
+}
+.clients__image-wrapper {
+	position: relative;
+	overflow-y: hidden;
+	width: 100%;
+	padding-left: calc(100vw / 2 - 0.5vw);
+}
+.clients__image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}

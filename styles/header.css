@@ -1,0 +1,40 @@
+.header {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+}
+
+.header__content-wrapper {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	z-index: 103;
+	box-sizing: content-box;
+}
+
+.header__logo {
+	width: 85px;
+	height: 95px;
+}
+
+.header__navigation {
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	.header {
+		background-color: #fff;
+		border-radius: 0;
+	}
+	.header__content-wrapper {
+		max-width: 962px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__content-wrapper {
+		max-width: 738px;
+	}
+}
